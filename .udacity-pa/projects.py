@@ -93,6 +93,6 @@ def submit(options):
 
     udacity.submit(nanodegree,
                    project_name,
-                   filenames, 
+                   filenames,
                    environment = options.environment,
                    max_zip_size=max_size)
